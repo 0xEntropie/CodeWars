@@ -17,6 +17,7 @@ Set of coding tasks and problems to learn programming languages.
 
 * [Counting Duplicates (6) by kgashok](Python/CountingDuplicates.py)
 * [Find The Parity Outlier (6) by obnounce](Python/FindParityOutlier.py)
+* [Complementary DNA (6) by JustyFY](Python/ComplimentaryDNA.py)
 
 
 

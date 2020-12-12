@@ -15,9 +15,7 @@ Set of coding tasks and problems to learn programming languages.
 
 ### Python:
 
-// TODO FIX THE PATH FINDER PROBLEM
-
-* [Counting Duplicates (6)]
+* [Counting Duplicates (6)](Python/CountingDuplicates.py)
 
 
 

@@ -1,0 +1,31 @@
+def rgb(r, g, b):
+    
+    if r < 0:
+         rr = '00' 
+    elif r > 255:
+        rr = 'FF'
+    elif r < 10 and r >=0:
+         rr = '0' + hex(r).upper()[2:]
+    else:
+        rr = hex(r).upper()[2:]
+        
+    if g < 0:
+         gg = '00' 
+    elif g > 255:
+        gg = 'FF'
+    elif g < 10 and g >=0:
+         gg = '0' + hex(g).upper()[2:]
+    else:
+        gg = hex(g).upper()[2:]
+        
+    if b < 0:
+        bb = '00' 
+    elif b > 255:
+        bb = 'FF'
+    elif b < 10 and b >=0:
+        bb = '0' + hex(b).upper()[2:]
+    else:
+        bb = hex(b).upper()[2:]
+    
+    return rr+gg+bb
+    
